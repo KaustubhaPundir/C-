@@ -19,6 +19,5 @@ int main(){
         cout<<*ptr[i]<<endl;
     }
     
-    
     return 0;
 }

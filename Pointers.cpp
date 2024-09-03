@@ -1,3 +1,4 @@
+// Array of pointers
 #include<iostream>
 using namespace std;
 int main(){
