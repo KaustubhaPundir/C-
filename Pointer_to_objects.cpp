@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-
+// Program for pointer to objects
 class demo{
     public:
         int a;
