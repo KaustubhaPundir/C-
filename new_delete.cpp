@@ -34,7 +34,9 @@ public:
 int main(){
     complex *p1;
     p1 =new complex(5,6); //New op overloaded function
-    p1-> display();
-    delete(p1); // delete op function called
+    // p1-> display();
+    int* pi;
+    pi = new int();
+    delete(pi); // delete op function called
     return 0;
 }
