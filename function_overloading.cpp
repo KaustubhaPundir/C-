@@ -12,10 +12,12 @@ public:
         c=r;
     }
     void putvalue(){
-
+        cout<<a<<","<<b<<","<<c<<endl;
     }
-    void opeartor ()(int p,int q, int r){
-        p=a
+    void operator ()(int p,int q,int r){
+        a=p;
+        b=q;
+        c=r;
     }
 };
 int main(){
