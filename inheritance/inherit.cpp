@@ -2,7 +2,7 @@
 using namespace std;
 
 class A{
-    protected:
+    private:
         int x;
 public:
     void input(){
@@ -18,7 +18,7 @@ public:
         cin>>y;
     }
     void putdata(){
-        cout<<"Addition ="<<x+y;
+        // cout<<"Addition ="<<x+y;
     }
 };
 int main(){
@@ -26,10 +26,10 @@ int main(){
     B objB;
     // objA.x=10; // Protected
     // objB.y=20;
-    objA.input();
+    // objA.input();
     objB.input();
-    objB.getdata();
-    objB.putdata();
+    // objB.getdata();
+    // objB.putdata();
 
 
 }
