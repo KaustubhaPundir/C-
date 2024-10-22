@@ -21,7 +21,7 @@ int main()
 {
     Base b;
     Derived d;
-    Base *bptr = dynamic_cast<Base *>(&d);
+    // Base *bptr = dynamic_cast<Base *>(&d);
     Derived *dptr = dynamic_cast<Derived *>(&b);
     if (dptr != NULL)
     {
