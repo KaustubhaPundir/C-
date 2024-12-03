@@ -20,6 +20,6 @@ int main()
     cout<<"value at index: "<<index<<result;
    }
    catch(exception &e){
-    cout<<"Exception:"<<e.what();
+    cout<<"Exception:"<<e.what()<<endl;
    }
 }
